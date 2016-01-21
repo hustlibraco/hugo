@@ -1,0 +1,23 @@
+BaseURL: "http://hustlibraco.com"
+LanguageCode: "zh-CN"
+Title: "Whisper"
+theme: "hugo_theme_aglaus"
+Duoshuo: "hustlibraco"
+
+Params:
+  Author: "Libraco"
+  DateForm: "Mon, Jan 2, 2006"
+  Github: "hustlibraco"
+  ShowRelatedPost: True
+  ShowTagCloud: True
+  Duoshuo: "hustlibraco"
+  SyntaxHighlightTheme: "tomorrow-night-eighties.min.css"
+
+Indexes:
+    tags: "tags" 
+
+permalinks:
+  post: /:year/:month/:day/:title/
+
+MetadataFormat: "yaml"
+HasCJKLanguage: True

@@ -1,0 +1,966 @@
+INFO: 2015/12/09 Using config file: /home/libraco/web/hustlibraco.com/config.yaml
+INFO: 2015/12/09 syncing from /home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/web/hustlibraco.com/public/
+INFO: 2015/12/09 syncing from /home/libraco/web/hustlibraco.com/static/ to /home/libraco/web/hustlibraco.com/public/
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 63 ms
+Watching for changes in /home/libraco/web/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/web/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 22:50 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 84 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 22:50 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 68 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 22:53 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 67 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 22:54 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 69 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 22:55 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 69 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:11 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 69 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:11 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 66 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:11 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+5 tags created
+in 60 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:11 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 64 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/2.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:12 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 66 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:16 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 60 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/1.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:17 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 67 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:21 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 68 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:21 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 66 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE "/home/libraco/web/hustlibraco.com/content/about.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:23 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 65 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:24 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 65 ms
+INFO: 2015/12/09 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3.md": WRITE]
+
+Change detected, rebuilding site
+2015-12-09 23:25 +0800
+INFO: 2015/12/09 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/09 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/09 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 74 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": CREATE "/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": CHMOD "/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 14:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 1269 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": CREATE "/home/libraco/web/hustlibraco.com/content/post/3 - 副本.md": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 14:07 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 115 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 14:12 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 178 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:14 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 132 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:14 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 92 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:16 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 111 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:18 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 101 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:22 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 97 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:23 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 152 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/web/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:33 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 84 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swx": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swx": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": RENAME "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html~": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html~": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 15:38 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 80 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.7z": CREATE]
+
+Change detected, rebuilding site
+2016-01-20 16:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 120 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/content/post/4.7z": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 16:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 87 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swx": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swx": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": REMOVE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": RENAME "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+Static file changed, syncing
+
+INFO: 2016/01/20 syncing from /home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/web/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/web/hustlibraco.com/static/ to /home/libraco/web/hustlibraco.com/public/
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/web/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2015/12/22 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/22 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/22 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 655 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2015/12/22 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2015/12/22 port 8000 already in use, attempting to use an available port
+INFO: 2015/12/22 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2015/12/22 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2015/12/22 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/22 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/22 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 420 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2015/12/22 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2015/12/22 port 8000 already in use, attempting to use an available port
+INFO: 2015/12/22 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2015/12/22 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2015/12/22 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2015/12/22 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2015/12/22 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 421 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 362 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 451 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 426 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 425 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 438 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 425 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 457 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 427 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/11 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/11 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/11 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/11 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/11 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+4 pages created
+0 paginator pages created
+6 tags created
+in 450 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": CREATE "/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": CHMOD "/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 14:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 1273 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": CREATE "/home/libraco/github/hugo/hustlibraco.com/content/post/3 - 副本.md": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 14:07 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 85 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 14:12 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 158 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:14 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 152 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:14 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 91 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:16 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 88 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:18 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 90 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:22 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 159 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:23 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 210 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE "/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:33 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+6 tags created
+in 76 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.md": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 15:33 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 113 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/li.html~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/_default/.li.html.swp": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 15:38 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 94 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.7z": CREATE]
+
+Change detected, rebuilding site
+2016-01-20 16:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 105 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/content/post/4.7z": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 16:06 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 84 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.base.css.swp": REMOVE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+Static file changed, syncing
+
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+INFO: 2016/01/20 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+ERROR: 2016/01/20 port 8000 already in use, attempting to use an available port
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 82 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/20 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 82 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/20 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 83 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swpx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swpx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swp": WRITE]
+
+Change detected, rebuilding site
+2016-01-20 16:27 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 84 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.swp": REMOVE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/.index.html.swp": REMOVE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 16:28 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 84 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_foot.html.swp": REMOVE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/default_head.html~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/layouts/partials/.default_head.html.swp": REMOVE]
+
+Change detected, rebuilding site
+2016-01-20 16:31 +0800
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 79 ms
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+Static file changed, syncing
+
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/4913": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": RENAME "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css": CHMOD "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/styles.css~": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]
+Static file changed, syncing
+
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 Using config file: /home/libraco/github/hugo/hustlibraco.com/config.yaml
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 syncing from /home/libraco/github/hugo/hustlibraco.com/static/ to /home/libraco/github/hugo/hustlibraco.com/public/
+INFO: 2016/01/20 found taxonomies: map[string]string{"tags":"tags"}
+WARN: 2016/01/20 Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/section/.html theme/_default/section.html theme/_default/list.html theme/indexes/.html theme/_default/indexes.html theme/theme/section/.html theme/theme/_default/section.html theme/theme/_default/list.html theme/theme/indexes/.html theme/theme/_default/indexes.html]
+WARN: 2016/01/20 Unable to locate layout for 404 page: [404.html theme/404.html]
+0 draft content
+0 future content
+5 pages created
+0 paginator pages created
+8 tags created
+in 82 ms
+Watching for changes in /home/libraco/github/hugo/hustlibraco.com/{data,content,layouts,static,themes/hugo_theme_aglaus}
+Serving pages from /home/libraco/github/hugo/hustlibraco.com/public
+Web Server is available at http://blog.hustlibraco.com/ (bind address localhost)
+Press Ctrl+C to stop
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swx": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CREATE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": WRITE "/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": CHMOD]
+INFO: 2016/01/20 File System Event: ["/home/libraco/github/hugo/hustlibraco.com/themes/hugo_theme_aglaus/static/css/.styles.css.swp": REMOVE]

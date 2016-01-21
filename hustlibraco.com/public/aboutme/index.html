@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nginx配置多域名反向代理 | Whisper">
+<meta property="og:url" content="http://blog.hustlibraco.com/aboutme/">
+<meta property="og:description" content="Nginx是一款用C语言编写的高性能Web服务器，常常架设在其他Web服务的外层，用于负载均衡、缓存静态文件、反向代理等。 所谓反向代理，就是">
+
+<meta property="og:image" content="http://blog.hustlibraco.com//images/nginx.png">
+
+
+<meta property="og:site_name" content="Whisper">
+
+<title>
+    
+    Nginx配置多域名反向代理 | Whisper
+    
+</title>
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/railscasts.min.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/base.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/styles.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/custom.css">
+
+
+<link rel="shortcut icon" href="http://blog.hustlibraco.com//assets/favicon.ico">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.hustlibraco.com//index.xml">
+
+
+
+<div class="wrap">
+    <div class="masthead">
+        <div class="container">
+            <h3 class="masthead-title">
+                <a href="http://blog.hustlibraco.com/" title="Home">Whisper</a>
+            </h3>
+            
+            
+            
+            
+            
+            <a href="http://blog.hustlibraco.com/aboutme/" class="fixed-link">Nginx配置多域名反向代理</a>
+            
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="container content">
+
+
+<article class="post post-single">
+    <span class="post-date">Thu, Dec 3, 2015</span>
+    <h1 class="post-title">Nginx配置多域名反向代理</h1>
+    
+    
+
+    <div class="post-content">
+        
+
+<p>Nginx是一款用C语言编写的高性能Web服务器，常常架设在其他Web服务的外层，用于负载均衡、缓存静态文件、反向代理等。</p>
+
+<p>所谓反向代理，就是部署在服务器端转发请求的代理服务，用户请求通过它到达真正的后端资源。与此对应的“正向”代理，是部署在客户端的代理服务，对外的网络请求实际由它发出。</p>
+
+<p>打个比方，正向代理就像是你叫你儿子帮你去打酱油，你儿子就是一个正向代理。反向代理就是你去酱油店买酱油，酱油实际上是老板找隔壁借来再卖给你，你并不知情，此时酱油店老板就是一个反向代理。</p>
+
+<p>从这个比方中也很好理解，正向代理对请求方是可知的，而反向代理对于请求方来说一般是透明的、不可知的。</p>
+
+<h2 id="安装nginx:e6001a249cf5befaf09e28d15df6b465">安装Nginx</h2>
+
+<p>使用Yum，我们可以很方便的安装Nginx(apt-get是完全类似的):</p>
+
+<pre><code>yum install nginx
+</code></pre>
+
+<p>打开nginx的配置文件<code>/etc/nginx/nginx.conf</code>，长这样:</p>
+
+<pre><code># For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    log_format  main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
+                      '$status $body_bytes_sent &quot;$http_referer&quot; '
+                      '&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 2048;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    include /etc/nginx/conf.d/*.conf;
+
+    server {
+        listen       80 default_server;
+        listen       [::]:80 default_server;
+        server_name  _;
+        root         /usr/share/nginx/html;
+
+        # Load configuration files for the default server block.
+        include /etc/nginx/default.d/*.conf;
+
+        location / {
+        }
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+}
+</code></pre>
+
+<p>大概可以知道nginx监听80端口，现在我们需要根据请求域名的不同代理到不同的后端服务。</p>
+
+<h2 id="配置反向代理:e6001a249cf5befaf09e28d15df6b465">配置反向代理</h2>
+
+<p>在<code>/etc/nginx/conf.d/</code>目录下新建一个配置文件<code>reverse_proxy.conf</code>，输入以下内容:</p>
+
+<pre><code>upstream wx_server {
+    server localhost:8001;
+}
+
+proxy_temp_path     /etc/nginx/proxy_temp;
+proxy_cache_path    /etc/nginx/proxy_cache levels=1:2 keys_zone=cache_one:100m inactive=1d max_size=1g;
+
+server {
+    listen 80;
+    server_name blog.hustlibraco.com hustlibraco.com;
+
+    location ~ .*\.(gif|jpg|png|css|js|ico|swf)(.*) {
+        proxy_pass http://localhost:8000;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+        proxy_cache cache_one;
+        proxy_cache_valid 200 304 5m;
+        proxy_cache_key $host$uri$is_args$args;
+        expires 30d;
+    }
+
+    location / {
+        proxy_pass http://localhost:8000;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+    access_log  /var/log/nginx/blog_hustlibraco_com_access.log;
+}
+
+server {
+    listen 80;
+    server_name wx.hustlibraco.com;
+    location / {
+        proxy_pass http://wx_server;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+    access_log  /var/log/nginx/wx_hustlibraco_com_access.log;
+}
+</code></pre>
+
+<p>其中两段server开头的配置指明了代理的规则，我们逐一解释下这些配置:</p>
+
+<ul>
+<li><p><code>listen 80</code>   监听80端口</p></li>
+
+<li><p><code>server_name blog.hustlibraco.com hustlibraco.com</code>    接受这两个域名的请求</p></li>
+
+<li><p><code>location ~ .*\.(gif|jpg|png|css|js|ico|swf)(.*){}</code>   指定文件的缓存配置</p></li>
+
+<li><p><code>location / {}</code>   接受server_name下所有路径的请求</p>
+
+<ul>
+<li><p><code>proxy_pass http://localhost:8000</code>    转发到localhost的8000端口上</p></li>
+
+<li><p><code>proxy_pass http://wx_server</code> 转发到wx_server节点上，由upstream配置</p></li>
+
+<li><p><code>proxy_redirect off</code>  不重写被代理服务器返回给客户端的Location和Refresh</p></li>
+
+<li><p><code>proxy_set_header Host $host</code> 设置请求头的Host为反向代理服务器的Host</p></li>
+
+<li><p><code>proxy_set_header X-Real-IP $remote_addr</code> 设置请求头的X-Real-IP为客户端真实IP</p></li>
+
+<li><p><code>proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for</code> 把请求来源的IP<strong>添加</strong>到请求头的X-Forwarded-For字段</p>
+
+<blockquote>
+<p>X-Forwarded-For:简称XFF头，它代表客户端，也就是HTTP的请求端真实的IP，只有在通过了HTTP代理或者负载均衡服务器时才会添加该项。
+  它不是RFC中定义的标准请求头信息，在squid缓存代理服务器开发文档中可以找到该项的详细介绍。
+  标准格式如下：X-Forwarded-For: client1, proxy1, proxy2。</p>
+</blockquote></li>
+
+<li><p><code>access_log  /var/log/nginx/blog_hustlibraco_com_access.log</code>  请求日志文件</p></li>
+</ul></li>
+</ul>
+
+<p>了解这些配置项的意义之后，可以知道发送给<code>blog.hustlibraco.com</code>, <code>hustlibraco.com</code>的请求都会被转发到本地8000服务上，而发送给<code>wx.hustlibraco.com</code>的请求被转发到wx_server节点上（<code>localhost:8001</code>）。</p>
+
+<p>配置好以后使用命令<code>service nginx reload</code>使配置生效。</p>
+
+<h2 id="设置开机自启动:e6001a249cf5befaf09e28d15df6b465">设置开机自启动</h2>
+
+<p>CentOS7引入了<code>systemctl</code>命令，结合了service和chkconfig的功能，一行命令设设置开机自启动:</p>
+
+<pre><code>-bash-4.2# systemctl enable nginx.service
+ln -s '/usr/lib/systemd/system/nginx.service' '/etc/systemd/system/multi-user.target.wants/nginx.service'
+</code></pre>
+
+    </div>
+
+    <aside>
+        <div class="post-share">
+        </div>
+
+        
+        
+
+        
+        <div class="post-related">
+            <h3>Related Post</h3>
+            <ul class="post-tags">
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        <i class="fa fa-tags"></i>
+                        Linux
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/nginx">
+                        <i class="fa fa-tags"></i>
+                        Nginx
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+        
+    </aside>
+
+    
+    <footer>
+        <div class="move">
+            <div class="prev">
+                
+                <a href="http://blog.hustlibraco.com/2015/12/03/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/">
+                    <i class="fa fa-chevron-left"></i>
+                    Centos使用Yum安装配置Mongodb
+                </a>
+                
+            </div>
+            <div class="next">
+                
+                <a href="http://blog.hustlibraco.com/2015/12/03/nginx%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%9F%9F%E5%90%8D%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/">
+                    Nginx配置多域名反向代理
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="ds-thread" data-thread-key="http://blog.hustlibraco.com/" data-title="Nginx配置多域名反向代理" data-url="http://blog.hustlibraco.com/aboutme/"></div>
+        
+
+        
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:"hustlibraco"};
+
+            (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';ds.async = true;
+                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+        </script>
+        
+        
+        
+    </footer>
+</article>
+
+
+    </div>
+</div>
+
+
+<aside class="sidebar-wrapper">
+    <div class="container">
+        
+        <div class="tags tag-cloud">
+            <h2>Tags</h2>
+            <ul class="post-tags">
+                
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        linux
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/mongodb">
+                        mongodb
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/nginx">
+                        nginx
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+<footer class="copy">
+    <p>&copy; 2015  Libraco </p>
+    <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_aglaus" target="_blank">Aglaus</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
+</footer>
+
+<script src="http://blog.hustlibraco.com//js/jquery-2.1.3.min.js"></script>
+<script src="http://blog.hustlibraco.com//js/highlight.pack.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Centos使用Yum安装配置Mongodb | Whisper">
+<meta property="og:url" content="http://blog.hustlibraco.com/2015/12/03/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/">
+<meta property="og:description" content="安装Mongodb 使用Yum，我们可以很方便的安装Mongodb: yum install mongodb mongodb-server yum会自动帮我们生成Mongodb的配置文件，其中最主要的配置文">
+
+<meta property="og:image" content="http://blog.hustlibraco.com//images/mongodb.png">
+
+
+<meta property="og:site_name" content="Whisper">
+
+<title>
+    
+    Centos使用Yum安装配置Mongodb | Whisper
+    
+</title>
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-eighties.min.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/base.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/styles.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/custom.css">
+
+
+<link rel="shortcut icon" href="http://blog.hustlibraco.com//assets/favicon.ico">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.hustlibraco.com//index.xml">
+
+
+
+<div class="wrap">
+    <div class="masthead">
+        <div class="container">
+            <h3 class="masthead-title">
+                <a href="http://blog.hustlibraco.com/" title="Home">Whisper</a>
+            </h3>
+            
+            
+            
+            
+            
+            
+            
+            <a href="http://blog.hustlibraco.com/about/" class="fixed-link">关于我</a>
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="container content">
+
+
+<article class="post post-single">
+    <span class="post-date">Thu, Dec 3, 2015</span>
+    <h1 class="post-title">Centos使用Yum安装配置Mongodb</h1>
+    
+    
+
+    <div class="post-content">
+        
+
+<h2 id="安装mongodb:10d8aa81d13021669fdcd5a46901e0c0">安装Mongodb</h2>
+
+<p>使用Yum，我们可以很方便的安装Mongodb:</p>
+
+<pre><code class="language-bash">yum install mongodb mongodb-server
+</code></pre>
+
+<p>yum会自动帮我们生成Mongodb的配置文件，其中最主要的配置文件<code>/etc/mongod.conf</code>部分内容如下：</p>
+
+<pre><code class="language-nginx"># Comma separated list of ip addresses to listen on (all local ips by default)
+bind_ip = 127.0.0.1
+
+# Specify port number (27017 by default)
+#port = 27017
+
+# Fork server process (false by default)
+fork = true
+
+# Full path to pidfile (if not set, no pidfile is created)
+pidfilepath = /var/run/mongodb/mongod.pid
+
+# Log file to send write to instead of stdout - has to be a file, not directory
+logpath = /var/log/mongodb/mongod.log
+
+# Alternative directory for UNIX domain sockets (defaults to /tmp)
+unixSocketPrefix = /var/run/mongodb
+
+# Directory for datafiles (defaults to /data/db/)
+dbpath = /var/lib/mongodb
+
+# Enable/Disable journaling (journaling is on by default for 64 bit)
+#journal = true
+#nojournal = true
+</code></pre>
+
+<p>默认配置指定了IP、端口、数据文件、日志文件等等，十分详尽，可以根据自己的实际情况进行修改，一般用默认的就行了。</p>
+
+<h2 id="配置开机自启动:10d8aa81d13021669fdcd5a46901e0c0">配置开机自启动</h2>
+
+<p>打开<code>/etc/rc.d/rc.local</code>文件，追加<code>/usr/bin/mongod --config /etc/mongod.conf</code>至行尾，保存即可。</p>
+
+<h2 id="尝试启动:10d8aa81d13021669fdcd5a46901e0c0">尝试启动</h2>
+
+<pre><code class="language-bash">service mongod start
+</code></pre>
+
+<p>结果失败了，提示我使用指令<code>systemctl status mongodb</code>查看原因，指令输出类似这样:</p>
+
+<pre><code class="language-bash">mongodb.service - High-performance, schema-free document-oriented database
+        Loaded: loaded (/usr/lib/systemd/system/mongodb.service; enabled)
+        Active: failed (Result: exit-code) since Mi 2013-04-03 15:48:01 EEST; 3min 13s ago
+        Process: 1756 ExecStart=/usr/bin/mongod --quiet --config /etc/mongodb.conf (code=exited, status=14)
+
+apr 03 15:48:01 echelon mongod[1756]: /usr/lib/libstdc++.so.6(_ZNSt6localeC1EPKc+0x71b) [0x7f60471c952b]
+apr 03 15:48:01 echelon mongod[1756]: /usr/lib/libboost_filesystem.so.1.53.0(_ZN5boost10filesystem4path7codecvtEv+0x4f) [0x7f6047adfb6f]
+apr 03 15:48:01 echelon mongod[1756]: /usr/lib/libboost_filesystem.so.1.53.0(_ZNK5boost10filesystem4path14root_directoryEv+0x114) [0x7f6047ae1344]
+apr 03 15:48:01 echelon mongod[1756]: /usr/lib/libboost_filesystem.so.1.53.0(_ZN5boost10filesystem8absoluteERKNS0_4pathES3_+0x3e) [0x7f6047add16e]
+apr 03 15:48:01 echelon mongod[1756]: /usr/bin/mongod(_ZN5mongo27initializeServerGlobalStateEb+0xf3) [0x94fc73]
+apr 03 15:48:01 echelon mongod[1756]: /usr/bin/mongod(main+0x234) [0x7591f4]
+apr 03 15:48:01 echelon mongod[1756]: /usr/lib/libc.so.6(__libc_start_main+0xf5) [0x7f60468b7a15]
+apr 03 15:48:01 echelon mongod[1756]: /usr/bin/mongod() [0x76bcd5]
+apr 03 15:48:01 echelon systemd[1]: mongodb.service: main process exited, code=exited, status=14/n/a
+apr 03 15:48:01 echelon systemd[1]: Unit mongodb.service entered failed state
+</code></pre>
+
+<p>仍然看不出哪里有问题，直到google到了这样的字眼<code>sudo chown -R mongodb: /var/{lib,log}/mongodb</code>，恍然大悟。</p>
+
+<p>使用Yum安装Mongodb会默认创建mongo用户：</p>
+
+<pre><code class="language-bash">mongodb:x:184:995:MongoDB Database Server:/var/lib/mongodb:/sbin/nologin
+</code></pre>
+
+<p>可以看到该用户的家目录是<code>/var/lib/mongodb</code>, 但是日志文件<code>/var/log/mongodb/mongod.log</code>和进程ID文件<code>/var/run/mongodb/mongod.pid</code>在其他的目录下面，这些目录属主不是mongodb用户，所以写入的时候会报权限问题。</p>
+
+<p>修改目录<code>/var/log/mongodb</code>和<code>/var/run/mongodb</code>属主为monodb即可。</p>
+
+<h2 id="总结:10d8aa81d13021669fdcd5a46901e0c0">总结</h2>
+
+<p>Yum安装软件十分简单，但是由于Mongodb的安装包忽略了权限问题，而且出错日志十分不明显，导致我花费数十分钟才解决。</p>
+
+<p>其实Linux下权限问题十分常见，发生问题不知道原因的时候都可以往这方面尝试一下。</p>
+
+<h2 id="更新:10d8aa81d13021669fdcd5a46901e0c0">更新</h2>
+
+<p>后来想了一下，应该不是安装包的问题，这问题未免也太低级了。</p>
+
+<p>极有可能是我安装好的时候使用自己的帐号运行过服务，所以产生的配置文件及目录的属主是我平常用的帐号，因此mongodb这个用户没有写入和执行权限。</p>
+
+<p>这里就不再去折腾重现了。马上开始下一个篇章：<strong>使用Mongodb！</strong></p>
+
+    </div>
+
+    <aside>
+        <div class="post-share">
+        </div>
+
+        
+        
+
+        
+        <div class="post-related">
+            <h3>Related Post</h3>
+            <ul class="post-tags">
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/mongodb">
+                        <i class="fa fa-tags"></i>
+                        Mongodb
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        <i class="fa fa-tags"></i>
+                        Linux
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul>
+            
+            
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li><a href="http://blog.hustlibraco.com/2015/12/03/nginx%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%9F%9F%E5%90%8D%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/">Nginx配置多域名反向代理</a></li>
+                
+            
+            </ul>
+        </div>
+        
+    </aside>
+
+    
+    <footer>
+        <div class="move">
+            <div class="prev">
+                
+                <a href="http://blog.hustlibraco.com/about/">
+                    <i class="fa fa-chevron-left"></i>
+                    关于我
+                </a>
+                
+            </div>
+            <div class="next">
+                
+                <a href="http://blog.hustlibraco.com/2015/12/03/nginx%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%9F%9F%E5%90%8D%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/">
+                    Nginx配置多域名反向代理
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="ds-thread" data-thread-key="http://blog.hustlibraco.com/2015/12/03/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/" data-title="Centos使用Yum安装配置Mongodb" data-url="http://blog.hustlibraco.com/2015/12/03/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/"></div>
+        
+
+        
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:"hustlibraco"};
+
+            (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';ds.async = true;
+                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+        </script>
+        
+        
+        
+    </footer>
+</article>
+
+
+    </div>
+</div>
+
+
+<aside class="sidebar-wrapper">
+    <div class="container">
+        
+        <div class="tags tag-cloud">
+            <h2>Tags</h2>
+            <ul class="post-tags">
+                
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/crypto">
+                        crypto
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        linux
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/mongodb">
+                        mongodb
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/nginx">
+                        nginx
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/python">
+                        python
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/rsa">
+                        rsa
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/supervisor">
+                        supervisor
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/tornado">
+                        tornado
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+<footer class="copy">
+    <p>&copy; 2015  Libraco </p>
+    <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_aglaus" target="_blank">Aglaus</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
+</footer>
+
+<script src="http://blog.hustlibraco.com//js/jquery-2.1.3.min.js"></script>
+<script src="http://blog.hustlibraco.com//js/highlight.pack.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+

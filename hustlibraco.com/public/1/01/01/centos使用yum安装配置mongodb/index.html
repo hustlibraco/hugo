@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Centos使用Yum安装配置Mongodb | Whisper">
+<meta property="og:url" content="http://blog.hustlibraco.com/1/01/01/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/">
+<meta property="og:description" content="安装Mongodb 使用Yum，我们可以很方便的安装Mongodb: yum install mongodb mongodb-server yum会自动帮我们生成Mongodb的配置文件，其中最主要的配置文">
+
+<meta property="og:image" content="http://blog.hustlibraco.com//images/mongodb.png">
+
+
+<meta property="og:site_name" content="Whisper">
+
+<title>
+    
+    Centos使用Yum安装配置Mongodb | Whisper
+    
+</title>
+
+
+<link rel="stylesheet" href="//fonts.useso.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/base.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/styles.css">
+<link rel="stylesheet" href="http://blog.hustlibraco.com//css/custom.css">
+
+
+<link rel="shortcut icon" href="http://blog.hustlibraco.com//assets/favicon.ico">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.hustlibraco.com//index.xml">
+
+
+
+<div class="wrap">
+    <div class="masthead">
+        <div class="container">
+            <h3 class="masthead-title">
+                <a href="http://blog.hustlibraco.com/" title="Home">Whisper</a>
+            </h3>
+            
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="container content">
+
+
+<article class="post post-single">
+    <span class="post-date">Mon, Jan 1, 0001</span>
+    <h1 class="post-title">Centos使用Yum安装配置Mongodb</h1>
+    
+    
+
+    <div class="post-content">
+        
+
+<h2 id="安装mongodb:d8ca3b3d314d8209367af0eea2373b6f">安装Mongodb</h2>
+
+<p>使用Yum，我们可以很方便的安装Mongodb:</p>
+
+<pre><code>yum install mongodb mongodb-server
+</code></pre>
+
+<p>yum会自动帮我们生成Mongodb的配置文件，其中最主要的配置文件<code>/etc/mongod.conf</code>部分内容如下：</p>
+
+<pre><code># Comma separated list of ip addresses to listen on (all local ips by default)
+bind_ip = 127.0.0.1
+
+# Specify port number (27017 by default)
+#port = 27017
+
+# Fork server process (false by default)
+fork = true
+
+# Full path to pidfile (if not set, no pidfile is created)
+pidfilepath = /var/run/mongodb/mongod.pid
+
+# Log file to send write to instead of stdout - has to be a file, not directory
+logpath = /var/log/mongodb/mongod.log
+
+# Alternative directory for UNIX domain sockets (defaults to /tmp)
+unixSocketPrefix = /var/run/mongodb
+
+# Directory for datafiles (defaults to /data/db/)
+dbpath = /var/lib/mongodb
+
+# Enable/Disable journaling (journaling is on by default for 64 bit)
+journal = true
+#nojournal = true
+</code></pre>
+
+<p>配置基本不用修改，直接运行service mongod start启动Mongodb服务，意想不到的失败了。</p>
+
+    </div>
+
+    <aside>
+        <div class="post-share">
+        </div>
+
+        
+        
+
+        
+        <div class="post-related">
+            <h3>Related Post</h3>
+            <ul class="post-tags">
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/mongodb">
+                        <i class="fa fa-tags"></i>
+                        Mongodb
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        <i class="fa fa-tags"></i>
+                        Linux
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+        
+    </aside>
+
+    
+    <footer>
+        <div class="move">
+            <div class="prev">
+                
+            </div>
+            <div class="next">
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="ds-thread" data-thread-key="http://blog.hustlibraco.com/" data-title="Centos使用Yum安装配置Mongodb" data-url="http://blog.hustlibraco.com/1/01/01/centos%E4%BD%BF%E7%94%A8yum%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEmongodb/"></div>
+        
+
+        
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:"hustlibraco"};
+
+            (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';ds.async = true;
+                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+        </script>
+        
+        
+        
+    </footer>
+</article>
+
+
+    </div>
+</div>
+
+
+<aside class="sidebar-wrapper">
+    <div class="container">
+        
+        <div class="tags tag-cloud">
+            <h2>Tags</h2>
+            <ul class="post-tags">
+                
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/linux">
+                        linux
+                    </a>
+                </li>
+                
+                <li>
+                    
+                    <a href="http://blog.hustlibraco.com//tags/mongodb">
+                        mongodb
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+<footer class="copy">
+    <p>&copy; 1  Libraco </p>
+    <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_aglaus" target="_blank">Aglaus</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
+</footer>
+
+<script src="http://blog.hustlibraco.com//js/jquery-2.1.3.min.js"></script>
+<script src="http://blog.hustlibraco.com//js/highlight.pack.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
